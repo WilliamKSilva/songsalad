@@ -16,7 +16,7 @@ model User {
   name                    String
   email                   String
   profile_pic             String
-  bio                     String
+  bio                     String?
   review                  Review[]
   authentication_provider AuthenticationProvider[]
   user_followers          UserFollower[]

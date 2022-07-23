@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "concurrently \"yarn workspace server start\" \"yarn workspace web start\""
+    "start": "concurrently \"yarn workspace server start\" \"yarn workspace client start\""
   },
   "license": "MIT",
   "private": true,
