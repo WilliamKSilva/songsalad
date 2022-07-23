@@ -1,0 +1,17 @@
+{
+  "name": "songsalad",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"yarn workspace server start\" \"yarn workspace web start\""
+  },
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "server",
+    "web"
+  ],
+  "devDependencies": {
+    "concurrently": "^7.3.0"
+  }
+}
